@@ -23,11 +23,10 @@ export default class App extends React.Component {
     event.preventDefault();
 
     if (this.validarForm()){
-      //this.calcularRoi();
+      this.calcularRoi();
     }
 
     
-    this.calcularRoi();
 
     
   }
